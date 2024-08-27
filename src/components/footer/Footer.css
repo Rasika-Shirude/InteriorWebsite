@@ -1,0 +1,91 @@
+.footer-container {
+  background-color: #333; /* Dark background for contrast */
+  color: #fff; /* White text color */
+  padding: 20px; /* Increased padding for better spacing */
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.footer-section {
+  width: 100%;
+  max-width: 300px; /* Limited width to keep it compact */
+  text-align: center; /* Center align the content */
+}
+
+.footer-section h3 {
+  font-size: 1.2rem; /* Adjust heading size */
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin: 5px 0; /* Adjust margin */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+.footer-section a {
+  color: #fff; /* White color for links */
+  text-decoration: none;
+  margin-left: 5px; /* Space between icon and text */
+}
+
+.footer-section a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer-icon {
+  color: #fff; /* White color for icons */
+  margin-right: 5px; /* Space between icon and text */
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center; /* Center the social media icons */
+  gap: 10px; /* Add space between the icons */
+  margin-top: 10px; /* Add some space above the icons */
+}
+
+.social-media-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem; /* Larger font size for social media icons */
+}
+
+.social-media-links a:hover {
+  color: #4a90e2; /* Optional: Change color on hover */
+}
+
+.footer-bottom {
+  border-top: 1px solid #444; /* Light border for separation */
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem; /* Adjust font size */
+}
+
+/* Hover effect for icons */
+.hoverable-icon:hover {
+  color: #4a90e2; /* Change color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px; /* Add space between sections */
+  }
+}

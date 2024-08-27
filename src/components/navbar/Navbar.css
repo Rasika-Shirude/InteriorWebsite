@@ -1,0 +1,65 @@
+.navbar-brand {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center align items */
+}
+
+.brand-name {
+  font-size: 1.5rem; /* Font size for main brand name */
+  font-weight: bold; /* Bold for main brand name */
+}
+
+.brand-subname {
+  font-size: 1rem; /* Font size for sub-name */
+  font-weight: bold; /* Make the sub-name bold */
+  margin-top: 4px; /* Add a small space above the sub-name */
+  text-align: center; /* Center align the sub-name */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #bfcbd2 !important; /* Change this to your desired color */
+  padding: 10px 20px; /* Optional: Add some padding */
+  position: sticky; /* Makes the navbar sticky */
+  top: 0; /* Position it at the top of the viewport */
+  z-index: 1000; /* Ensure it stays above other content */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+/* Centering styles for navbar */
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Center the items */
+  width: 100%; /* Full width */
+}
+
+/* Navbar link styles */
+.navbar .nav-link {
+  color: black; /* Text color */
+  margin: 0 10px; /* Margin between links */
+}
+
+/* Responsive styles */
+@media (max-width: 992px) { /* For tablet and below */
+  .navbar .navbar-nav {
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center align links */
+    width: 100%; /* Full width */
+  }
+
+  .navbar .nav-link {
+    margin: 10px 0; /* Margin for spacing */
+    text-align: center; /* Center the text */
+  }
+}
+
+@media (max-width: 576px) { /* For mobile */
+  .navbar-brand {
+    font-size: 1.2rem; /* Slightly smaller brand font size */
+  }
+
+  .navbar .nav-link {
+    font-size: 0.9rem; /* Font size for nav links */
+    flex: 1 0 100%; /* Make links take full width */
+  }
+}

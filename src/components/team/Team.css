@@ -1,0 +1,102 @@
+.team-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  min-height: 100vh; /* Make the container take up the full viewport height */
+}
+
+.team-container h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #4a90e2, #0056b3);
+  color: #fff;
+  border-radius: 8px;
+}
+
+.team-container h1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.team-container h1::after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+  
+  .team-member {
+    width: 250px; /* Set a fixed width for team members */
+    padding: 20px;
+    background-color: #fff; /* White background for team member cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Ensure no overflow from rounded corners */
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px); /* Slightly lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
+  .team-photo {
+    width: 100%; /* Make sure photo takes full width of its container */
+    height: 150px; /* Set a consistent height for all photos */
+    object-fit: cover; /* Ensure images cover the container and maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for photos */
+  }
+  
+  .team-name {
+    font-size: 1.25rem; /* Slightly larger font size for names */
+    font-weight: bold;
+    color: #333; /* Dark color for names */
+    margin: 15px 0 5px; /* Adjust margin for better spacing */
+  }
+  
+  .team-designation {
+    color: #777; /* Lighter color for designation */
+    font-style: italic; /* Italicize designation for distinction */
+    margin: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .team-member {
+      width: 300px; /* Larger width for desktop view */
+    }
+    .team-photo {
+      height: 200px; /* Adjust height for larger images on desktop */
+    }
+  }
+  
