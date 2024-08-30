@@ -10,35 +10,36 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>
-            <a href="https://www.google.com/maps/place/Chandranil+-+100+Dhayri+Phata" target="_blank" rel="noopener noreferrer">
+          <p className="bgadd">
+            <a href="https://maps.app.goo.gl/Bin1xvmt5N1weSb47" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="footer-icon hoverable-icon" />
             </a>
-            Chandranil - 100 Dhayri Phata
+            Reliance Mall, Erandwane,
           </p>
-          <p>Sinhgad road, Pune 41</p>
+          <p className="bgadd">Pune, Maharashtra 411004</p>
           <p>
             <FontAwesomeIcon icon={faEnvelope} className="footer-icon hoverable-icon" />
-            <a href="mailto:rasika.shirude@gmail.com">rasika.shirude@gmail.com</a>
+            <a href="mailto:kavya.dixit.com">kavya.dixit@gmail.com</a>
           </p>
           <p>
             <FontAwesomeIcon icon={faPhone} className="footer-icon hoverable-icon" />
-            8329407271 / 9028090362
+            <a href="tel:8799901000" className="phone-link">8799901000</a> / 
+          <a href="tel:18001027382" className="phone-link">18001027382</a>
           </p>
         </div>
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-media-links">
-            <a href="https://wa.me/918329407271" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/918799901000" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="https://www.instagram.com/sas_inscape_architects?igsh=ZGJ5ZGY4N25mdWpv" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/designanddecor_interiors?igsh=MXh0dG81b2pmdzRsaw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="https://www.linkedin.com/in/sasinscapearchitects/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/aici/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
           </div>

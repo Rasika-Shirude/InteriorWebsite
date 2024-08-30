@@ -9,14 +9,14 @@ const AboutUs = () => {
     <div className="portfolio-container">
       <section>
         <p>
-          Welcome to SAS Inscape Architects, where creativity meets functionality. We are a passionate team of architects and interior designers dedicated to transforming spaces into innovative and inspiring environments. Our mission is to create designs that reflect our clients’ unique visions while ensuring sustainability and functionality.
+          Welcome to Aesthetic Haus, where creativity meets functionality. We are a passionate team of architects and interior designers dedicated to transforming spaces into innovative and inspiring environments. Our mission is to create designs that reflect our clients’ unique visions while ensuring sustainability and functionality.
         </p>
       </section>
 
       <section>
         <h2>History</h2>
         <p>
-          Founded in 2022, SAS Inscape Architects has grown from a small design studio to a recognized leader in the architecture and interior design industry. Over the years, we have successfully completed numerous residential and commercial projects.
+          Founded in 2022, Aesthetic Haus has grown from a small design studio to a recognized leader in the architecture and interior design industry. Over the years, we have successfully completed numerous residential and commercial projects.
         </p>
       </section>
 

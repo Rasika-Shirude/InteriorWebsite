@@ -7,7 +7,7 @@ const HomePage = () => {
       <header className="hero-section">
         <div className="overlay"></div>
         <div className="hero-content">
-          <h1>SAS Inscape Architects</h1>
+          <h1>Aesthetic Haus</h1>
           <p>Give Space And Take Art</p>
           <a href="#services" className="cta-button">Discover More</a>
         </div>
@@ -17,7 +17,7 @@ const HomePage = () => {
         <div className="about-content">
           <h2>About Us</h2>
           <p>
-            SAS Inscape Architects specializes in creating sophisticated and functional spaces that reflect our clients' visions. 
+          Aesthetic Haus specializes in creating sophisticated and functional spaces that reflect our clients' visions. 
             Our experienced team is dedicated to providing exceptional architectural and interior design services, ensuring every project is executed with precision and care.
           </p>
           <a href="/about" className="cta-link">Read More</a>

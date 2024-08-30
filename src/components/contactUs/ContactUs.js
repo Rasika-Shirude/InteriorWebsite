@@ -22,35 +22,36 @@ const ContactUs = () => {
         <h2>Contact Us</h2>
         <div className="contact-item">
           <FontAwesomeIcon icon={faPhone} className="fa-phone" />
-          <span>8329407271 / 9028090362</span>
+          <a href="tel:8799901000" className="phone-link">8799901000</a> / 
+          <a href="tel:18001027382" className="phone-link">18001027382</a>
         </div>
         <div className="contact-item">
           <FontAwesomeIcon icon={faEnvelope} className="fa-envelope" />
-          <a href="mailto:rasika.shirude@gmail.com" className="email-link">rasika.shirude@gmail.com</a>
+          <a href="mailto:kavya.dixit@gmail.com" className="email-link">kavya.dixit@gmail.com</a>
         </div>
         <p className="social-media-invite">
           You can also find us on social media:
         </p>
         <div className="social-media-lks">
-          <a href="https://wa.me/918329407271" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/918799901000" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faWhatsapp} className="fa-whatsapp" />
           </a>
-          <a href="https://www.instagram.com/sas_inscape_architects?igsh=ZGJ5ZGY4N25mdWpv" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/designanddecor_interiors?igsh=MXh0dG81b2pmdzRsaw==" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} className="fa-instagram" />
           </a>
-          <a href="https://www.linkedin.com/in/sasinscapearchitects/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/aici/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="fa-linkedin" />
           </a>
         </div>
         <div className="office-addresses">
           <h3>
-            <a href="https://maps.app.goo.gl/8HrCFshuYCTPpKSa7" target="_blank" rel="noopener noreferrer">
+            <a href="https://maps.app.goo.gl/Bin1xvmt5N1weSb47" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="fa-map-marker" />
             </a> Office
           </h3>
           <div className="office">
-            <h5>Sinhgad Road</h5>
-            <p>Chandranil - 100 Dhayri Phata, Sinhgad road, Pune 41</p>
+            <h5>Reliance Mall</h5>
+            <p>Erandwane, Pune, Maharashtra 411004</p>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import Home from './components/home/Home';
 import AboutUs from './components/aboutUs/AboutUs';
 import ContactUs from './components/contactUs/ContactUs';
 import Team from './components/team/Team';
-import {
+import { BrowserRouter,
   BrowserRouter as Router,
   Routes,
   Route
@@ -19,11 +19,12 @@ import Bungalow from './components/bungalow/Bungalow';
 import Resort from './components/resort/Resort';
 import Gym from './components/gym/Gym';
 import ScrollToTop from './components/ScrollToTop'; // Import ScrollToTop
+import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
   return (
   <>
-
+<BrowserRouter basename={process.env.PUBLIC_URL}></BrowserRouter>
   <Router>
   <ScrollToTop /> {/* Add ScrollToTop component here */}
 
@@ -40,12 +41,13 @@ function App() {
           <Route exact path="/bungalow" element={<Bungalow/>} />
           <Route exact path="/resort" element={<Resort/>} />
           <Route exact path="/gym" element={<Gym/>} />
-
+          <Route exact path="/testimonials" element={<Testimonials/>} />
 
          
         </Routes>
        <Footer/>
    </Router>
+   
   </>
   );
 }

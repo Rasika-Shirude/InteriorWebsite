@@ -7,9 +7,9 @@ import ashwini from '../../assets/images/ashwini.jpg';
 import sumedha from '../../assets/images/sumedha.jpg';
 
 const teamMembers = [
-  { name: 'Shravani', photo: shravani, designation: 'Director of Production' },
-  { name: 'Ashwini', photo: ashwini, designation: 'Head of Modelling/UI UX' },
-  { name: 'Sumedha', photo: sumedha, designation: 'Creative Director' },
+  { name: 'Kavya', photo: shravani, designation: 'Director of Production' },
+  { name: 'Ananya', photo: ashwini, designation: 'Head of Modelling/UI UX' },
+  { name: 'Soumya', photo: sumedha, designation: 'Creative Director' },
 ];
 
 const Team = () => {

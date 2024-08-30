@@ -9,12 +9,6 @@
   font-weight: bold; /* Bold for main brand name */
 }
 
-.brand-subname {
-  font-size: 1rem; /* Font size for sub-name */
-  font-weight: bold; /* Make the sub-name bold */
-  margin-top: 4px; /* Add a small space above the sub-name */
-  text-align: center; /* Center align the sub-name */
-}
 
 /* Navbar styles */
 .navbar {

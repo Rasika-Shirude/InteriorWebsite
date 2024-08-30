@@ -32,7 +32,7 @@
 }
 
 .footer-section a {
-  color: #fff; /* White color for links */
+  color: darkgray; /* White color for links */
   text-decoration: none;
   margin-left: 5px; /* Space between icon and text */
 }
@@ -54,7 +54,7 @@
 }
 
 .social-media-links a {
-  color: #fff;
+  color: darkgray;
   text-decoration: none;
   font-size: 1.5rem; /* Larger font size for social media icons */
 }
@@ -88,4 +88,18 @@
   .footer-section {
     margin-bottom: 20px; /* Add space between sections */
   }
+}
+.phone-link {
+  color: inherit; /* Keep the link color consistent */
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem;
+  margin-left: 5px; /* Optional: Add a little space */
+}
+
+.phone-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.bgadd{
+  color: darkgray;
+  font-size: 1rem;
 }

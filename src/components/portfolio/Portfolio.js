@@ -36,9 +36,7 @@ const PortfolioPage = () => {
         ))}
       </section>
 
-      <footer className="footer">
-        <p>&copy; 2024 SAS Inscape Architects. All Rights Reserved.</p>
-      </footer>
+  
     </div>
   );
 };

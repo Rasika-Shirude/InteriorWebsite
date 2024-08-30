@@ -229,3 +229,13 @@ body {
   font-weight: bold;
   margin-top: 10px;
 }
+
+.phone-link {
+  color: inherit; /* Keep the link color consistent */
+  text-decoration: none; /* Remove underline */
+  margin-left: 5px; /* Optional: Add a little space */
+}
+
+.phone-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
