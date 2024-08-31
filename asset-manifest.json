@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/InteriorWebsite/static/css/main.c079716d.css",
+    "main.css": "/InteriorWebsite/static/css/main.6ed5aeb2.css",
     "main.js": "/InteriorWebsite/static/js/main.9ab346a7.js",
     "static/js/453.dc86a23d.chunk.js": "/InteriorWebsite/static/js/453.dc86a23d.chunk.js",
     "static/media/b2.jpg": "/InteriorWebsite/static/media/b2.4b5efd7f8139a471263a.jpg",
@@ -137,12 +137,12 @@
     "static/media/sumedha.jpg": "/InteriorWebsite/static/media/sumedha.d8766241a0b59b23abe8.jpg",
     "static/media/h0.jpeg": "/InteriorWebsite/static/media/h0.6a305b6c81ea21399ff2.jpeg",
     "index.html": "/InteriorWebsite/index.html",
-    "main.c079716d.css.map": "/InteriorWebsite/static/css/main.c079716d.css.map",
+    "main.6ed5aeb2.css.map": "/InteriorWebsite/static/css/main.6ed5aeb2.css.map",
     "main.9ab346a7.js.map": "/InteriorWebsite/static/js/main.9ab346a7.js.map",
     "453.dc86a23d.chunk.js.map": "/InteriorWebsite/static/js/453.dc86a23d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c079716d.css",
+    "static/css/main.6ed5aeb2.css",
     "static/js/main.9ab346a7.js"
   ]
 }
